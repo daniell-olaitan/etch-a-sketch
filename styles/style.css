@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    font-style: italic;
+    padding: 24px;
+}
+
+main {
+    display: flex;
+    /* justify-content: space-around; */
+    padding-right: 200px;
+    gap: 200px;
+
+}
+
+#sketch-board {
+    width: 500px;
+    height: 500px;
+    background-color: #e5e7eb;
+    padding: 0;
+}
+
+footer {
+    padding: 18px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: aqua;
+}
+
+.btn {
+    border: 2px solid white;
+    padding: 16px;
+    background-color: #1f2937;   
+    border-radius: 18px;
+    color: #e5e7eb;
+    font-weight: 700;
+    width: 150px;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+}
+
+.selected-btn {
+    background-color: aqua;
+    color: black;
+}
