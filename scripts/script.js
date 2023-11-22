@@ -21,13 +21,13 @@ function app() {
     menu.addEventListener('click', (event) => {
         switch (event.target.id) {
             case 'grid-number-btn':
-                deactivateButton(activeButton);
                 numberOfGrids = getNumberOfGrids();
                 if (numberOfGrids === null) {
                     break;
                 }
                 
                 drawGrids(sketchBoard, numberOfGrids, defaultGridColor);
+                deactivateButton(activeButton);
                 break;
 
             case 'rainbow-btn':
