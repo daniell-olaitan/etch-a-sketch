@@ -49,8 +49,6 @@ footer a {
     width: 150px;
 }
 
-
-
 ul {
     display: flex;
     flex-direction: column;
@@ -60,6 +58,19 @@ ul {
     margin-left: auto;
 }
 
+label {
+    margin-left: 10px;
+    color: #e5e7eb;
+    font-weight: 700;
+}
+
+#set-color-btn {
+    padding: 0;
+    margin-left: 10px;
+    border: 0;
+}
+
+/* Dynamic classes*/
 .selected-btn {
     background-color: aqua;
     color: black;
