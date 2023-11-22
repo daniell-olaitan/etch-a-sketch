@@ -56,7 +56,6 @@ function app() {
                 break;
 
             case 'gridline-toggle-btn':
-                deactivateButton(activeButton);
                 toggleGridLine(sketchBoard.children);
                 break;
         }
