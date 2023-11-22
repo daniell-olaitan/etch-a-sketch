@@ -27,7 +27,6 @@ function app() {
                 }
                 
                 drawGrids(sketchBoard, numberOfGrids, defaultGridColor);
-                deactivateButton(activeButton);
                 break;
 
             case 'rainbow-btn':
